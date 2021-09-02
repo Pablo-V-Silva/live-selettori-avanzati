@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* h1.title {
+    color: red;
+}
+
+ seleziona solo i tag con quel determinato attributo 
+input[type="submit"] {
+    border:0;
+}
+
+tag (spazio) tag, inquadra tutti i discendenti del tag selezionato indifferentemente dal grado di profondità 
+div p {
+    color: red;
+}
+
+a:hover, a:active, a:focus {
+    color: red;
+}
+
+div > strong {
+    color: purple;
+} */
+
+body {
+  background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg");
+  width: 60%;
+  margin: auto;
+}
+
+header {
+  border-bottom: 2px solid white;
+  height: 100px;
+}
+
+header h1 {
+  display: inline-block;
+  color: white;
+}
+
+ h1 {
+   position: relative;
+   bottom: 1.5rem;
+ }
+
+.logo {
+  padding-top: 0.8rem;
+}
+
+form {
+  padding-top:1rem;
+}
+
+input[type="button"] {
+  border-radius: 3px;
+  padding: 0.1rem 0.2rem;
+}
+
+input[type="text"] {
+  padding: 0rem 0.2rem;
+}
+
+.special {
+  margin-top: 1.4rem;
+  color: white;
+}
+
+.special > span {
+  background: orange;
+  border-radius: 50%;
+  padding: 10px;
+}
